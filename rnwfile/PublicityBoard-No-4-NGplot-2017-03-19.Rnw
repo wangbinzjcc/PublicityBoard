@@ -1,0 +1,371 @@
+\documentclass[UTF8]{ctexrep}
+% 
+\usepackage{geometry}
+\geometry{papersize={120cm,90cm},left=1.5cm,right=1.5cm,top=1.3cm,bottom=0cm}
+%
+\usepackage{siunitx} % 加载经纬度
+%
+\usepackage[T1]{fontenc}
+\newcommand{\phv}{\fontfamily{phv}\selectfont}
+\newcommand{\zitiTitle}{\fontsize{70pt}{70pt}\selectfont}
+\newcommand{\zitiAa}{\fontsize{58pt}{63pt}\selectfont}
+\newcommand{\zitiA}{\fontsize{44pt}{45pt}\selectfont}
+\newcommand{\zitiAb}{\fontsize{44pt}{48pt}\selectfont}
+\newcommand{\zitiB}{\fontsize{40pt}{42pt}\selectfont}
+\newcommand{\zitiBa}{\fontsize{41pt}{44pt}\selectfont}
+% \newcommand{\zitiBb}{\fontsize{41pt}{44pt}\selectfont}
+% \newcommand{\zitiBc}{\fontsize{37pt}{38pt}\selectfont}
+\newcommand{\zitiC}{\fontsize{23pt}{25pt}\selectfont}
+\newcommand{\zitiD}{\fontsize{25pt}{27pt}\selectfont}
+\newcommand{\zitiDa}{\fontsize{22pt}{25pt}\selectfont}
+
+\newcommand{\zitiE}{\fontsize{17pt}{27pt}\selectfont}
+\newcommand{\zitiEa}{\fontsize{16pt}{23pt}\selectfont}
+\newcommand{\zitiF}{\fontsize{13pt}{18pt}\selectfont}
+%
+\usepackage[table]{xcolor}
+% \definecolor{mediumblue}{cmyk}{94, 87, 0, 0}
+\definecolor{mediumblue}{cmyk}{50, 90, 0, 0}
+\usepackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+%
+\usepackage{Overpic}
+%
+%
+\usepackage{wrapfig}
+%
+\usepackage{color}
+%
+% %
+\usepackage{amssymb} % 加载温度
+\newcommand*\circled[1]{\raisebox{-1.8pt}{\Large\textcircled{\raisebox{1.8pt}{\small{#1}}}\hspace{1.5pt}}}
+\def\celsius{\ensuremath{^\circ\hspace{-0.09em}\mathrm{C}}}
+%
+%
+
+% %
+\usepackage{booktabs}
+% \usepackage{colortbl}
+%
+\newcommand{\hangju}{\renewcommand\arraystretch{0.5}}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\begin{document} 
+\sisetup{detect-family}%
+\setlength{\parindent}{0em}
+%
+\begin{minipage}{120cm}
+\begin{center}
+{\color{mediumblue}{\zitiTitle\heiti\phv 
+弄岗喀斯特季节性雨林15公顷监测样地\\[0.8cm]
+Nonggang Karst Seasonal Rain Forest 15 hm$\sffamily^\num{2}$ Dynamics Study Plot}}
+\end{center}
+\end{minipage} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\vskip 1.0 cm 
+% 
+%%%% 左栏的文字%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}{57.5cm} % 左栏的文字
+%%%
+\begin{minipage}{57.5cm}
+\hspace{0cm}{\color{mediumblue}{\zitiAa\heiti 概况~}}
+\zitiA
+弄岗喀斯特季节性雨林15公顷样地建于2011年，是全球唯一的喀斯特季节性雨林大型固定监测样地（图1, 2）。到2016年，基于样地数据已发表专著1部，学术论文25篇，其中SCI论文5篇，得到4项国家自然科学基金资助。\\
+%
+{\color{mediumblue}{\zitiAa\phv Overview~}}
+\zitiBa Nonggang 15 hm$^2$ karst seasonal rainforest plot was established in 2011, is the unique large dynamic plot in the karst seasonal rainforest in the world (Figure 1, 2). By 2016, based on the plot data, 1 monograph, 25 scientific articles, including 5 SCI articles have been published. Our reasearches have been supported by 4 National Natural Science Foundations of China.\\
+\end{minipage} 
+%%%%%%%%%%%%
+\\[-0.5 cm]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\begin{minipage}{57cm}  % 左半栏的图
+%
+\begin{overpic}[height=17cm,width=26cm]{F:/DataW/PublBoard/figure4/a1.jpg}
+\put(1, 61){\colorbox{black!15}{\color{mediumblue}{\zitiB(1)}}}
+%%
+\put(10, 30){
+\begin{minipage}{15cm}
+{\raggedright
+\zitiD\heiti\phv
+\color{white}{
+弄岗15公顷样地\\[-0.1cm]
+Nonggang 15 hm$\sffamily^\num{2}$ plot\\
+[0.5cm]
+}
+\color{black!4}{
+面积Area: 500 m$\times$300 m\\
+坐标Coordinate: {\color{white}\sffamily\ang{22;25;} N, \ang{106;57;} E}\\
+科Families: 56\\属Genera: 157\\种Species: 223\\
+独立个体Individuals: 68,010\\
+( 含分枝with branch: 95,471 )\\
+平均胸径Mean DBH: 4.84 cm\\
+最大胸径Max DBH: 101 cm\\
+}
+}
+\end{minipage} 
+}
+%%
+\put(0, -6.5){
+\begin{minipage}{27cm}
+\zitiD\heiti\phv
+\centering
+弄岗样地的示意图\\
+Sketch map of the Nonggang plot
+\end{minipage} 
+}
+
+%%
+\end{overpic}
+\hfill
+% 图2 %
+\begin{overpic}[height=17cm,width=23cm]{F:/DataW/PublBoard/figure4/a2.jpg}
+\put(-10, 67){\colorbox{black!15}{\color{mediumblue}{\zitiB(2)}}}
+\put(5, 61){
+\begin{minipage}{24cm}
+\zitiC\heiti\phv
+{\raggedleft
+\color{black!80}{
+Average rock exposed degree: 68.8\%\\
+pH value: 7.5$-$8.6\\
+Altitude range: 184$-$374 m\\
+Average slope: {\sffamily\ang{41.7}}\\
+Maximum slope: {\sffamily\ang{78.9}}\\
+}}
+\end{minipage} 
+}
+%
+\put(-15, 10.5){%
+\begin{minipage}{27cm}
+\zitiC\heiti\phv
+{\raggedright
+\color{black!80}{
+平均坡度: {\sffamily\ang{41.7}}\\
+最大坡度: {\sffamily\ang{78.9}}\\
+海拔范围: 184$-$374 m\\
+pH值: 7.5$-$8.6\\
+平均岩石裸露度: 68.8\%\\
+}
+}
+\end{minipage} 
+}
+%
+\put(0, -6.8){
+\begin{minipage}{20cm}
+\zitiD\heiti\phv
+\centering
+弄岗样地的地形图\\
+Topographic map of the Nonggang plot
+\end{minipage} 
+}
+%
+\end{overpic}
+\hspace{2.5cm}
+%%%%%
+\\[3.2cm]
+%%%%%
+% 图3 %
+\begin{overpic}[height=17cm,width=26.5cm]{F:/DataW/PublBoard/figure4/b1.jpg}
+\put(3, 58.5){\colorbox{black!15}{\color{mediumblue}{\zitiB(3)}}}
+\put(0,-6.5){
+\zitiD\heiti\phv 
+\begin{minipage}{27cm}
+\centering
+种子雨收集器在样地中的位置\\
+Location of seed traps in the plot
+\end{minipage} 
+}
+\end{overpic}
+%
+\hfill
+% 图4 %
+\raisebox{7.22cm}{
+\begin{minipage}{27cm} % 图4
+\begin{overpic}[height=16.7cm,width=17.2cm]{F:/DataW/PublBoard/figure4/b2.jpg}
+\put(0, 92){\colorbox{black!15}{\color{mediumblue}{\zitiB(4)}}}
+\end{overpic}
+%
+\hfill
+%
+\raisebox{9.5cm}{
+\begin{minipage}{9.0cm} % 图4.1
+\begin{overpic}[height=7.8cm,width=9.0cm]{F:/DataW/PublBoard/figure4/b4.jpg}
+%%
+\put(0, 9){
+\begin{minipage}{8.6cm}
+\zitiC\heiti\phv
+\raggedleft{
+\color{black!0}{
+种子收集器\\[-0.2cm]
+Seed trap}}
+\end{minipage}
+}
+%%
+\end{overpic}
+%
+\\[0.45cm]
+% 图4.2
+\begin{overpic}[height=7.8cm,width=9.0cm]{F:/DataW/PublBoard/figure4/b3.jpg}
+\put(0.2,9){
+\begin{minipage}{8.5cm}
+\zitiC\heiti\phv
+{\raggedleft
+\color{black!0}{
+幼苗框\\[-0.2cm]
+Seedling subplot\\
+}
+}
+\end{minipage}
+}
+%
+\end{overpic}
+\\[-1.8cm]
+\end{minipage} % 图4.2
+}
+\\[0.30cm]
+\begin{minipage}{27cm}
+\zitiD\heiti\phv
+\centering
+种子收集器和幼苗框的布设图\\
+Layout map of seed traps and seedling subplots\\
+\end{minipage} 
+\end{minipage} % 图4
+}
+\hspace{0.8cm}
+%%%
+\end{minipage} % 左半栏的图
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\\[0.7cm]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hspace{0cm}{\color{mediumblue}{\zitiAa\heiti 样地建设进展~}}
+\zitiB
+弄岗样地由广西植物研究所的\textbf{喀斯特植被生物多样性与生态系统功能研究团队}主持建设，团队成员有：李先琨、向悟生、陆树华、丁涛、文淑均、郭屹立、黄甫昭、王斌、李冬兴、陈婷。于2009年启动样地建设；2010年完成样地标定；2011年完成每木调查；2012年至今，开展幼苗、种子雨、凋落物等常规监测（图3, 4），开展动物红外相机监测；2015年开展岩石裸露度、光资源、土壤因子等调查；2016年完成第二次每木调查。在2012--2014年，建立4个1公顷辅助样地。
+\\[0.5cm]
+{\color{mediumblue}{\zitiAa\phv Plot Maintenance}}
+\zitiBc
+Main construction team is the {Study Team of Karst Vegetation Biodiversity and Ecosystem Function} in the Guangxi Institute of Botany, consisting of members: Li XK, Xiang WS, Lu SH, Ding T, Guo YL, Wen SJ, Wang B, Huang FZ, Li DX, Chen T. In 2009, Nonggang plot was started up. In 2010, calibration and mapping was completed. In 2011, the first vegetation survey was completed. Since 2012, monitoring on seedling, seed and litterfall, and infrared camera trappings are carried out(Figure 3, 4). In 2015, rock, light, and soil environment were investigated. In 2016, the second survey was completed. From 2012 to 2014, four 1 hm$^2$ associated plots were set up.
+%%%%%
+\end{minipage} % 左半栏的文字
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}{57.5cm}
+%！！！ 
+\begin{minipage}{57.5cm} % 右栏的文字
+%
+{\color{mediumblue}{\zitiAa\heiti 研究成果~}}
+\zitiAb
+样地树种以热带性质的科为优势科（表1）。山顶优势种为黄梨木、细叶谷木、毛叶铁榄等；山坡优势种为蚬木、肥牛树、海南椴等；洼地优势种中国无忧花、广西棋子豆、对叶榕等（图5--7）。有11个（4.93\%）优势种的个体数>1,500株，其个体数之和占总个体数的 51.6\%；75个（33.6\%）稀有种，其个体数$\leqslant$1株/hm$^2$，占总个体数的0.35\%。样地内群落结构和土壤化学含量的空间变异性强烈。沿 ‘‘峰丛—洼地’’ 坡面的海拔下降方向，样地表层土壤的有机质、全氮、全镁、全钙、全硫含量及pH值等呈下降趋势，全磷、全钾等含量呈上升趋势（图8）；单位样方内的胸高断面积呈上升趋势，物种丰富度和个体多度呈下降趋势（图9）。
+\\[0.8cm]
+\end{minipage} % 右栏的文字
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}{57.5cm}  %  右半栏的图
+%%%
+\begin{overpic}[height=13cm,width=18.5cm]{F:/DataW/PublBoard/figure4/d1.jpg}%
+\put(90, 73){\colorbox{black!8}{\color{mediumblue}{\zitiB(5)}}}
+\put(15, 75.5){\zitiD\heiti\phv 黄梨木(\emph{Boniodendron minus})}
+\end{overpic}
+%
+\hfill
+%
+\begin{overpic}[height=13cm,width=18.5cm]{F:/DataW/PublBoard/figure4/d2.jpg}%
+\put(90, 73){\colorbox{black!8}{\color{mediumblue}{\zitiB(6)}}}
+\put(13, 75.5){\zitiD\heiti\phv 蚬木(\emph{Excentrodendron tonkinense})}
+\end{overpic}
+%
+\hfill
+%
+\begin{overpic}[height=13cm,width=18.5cm]{F:/DataW/PublBoard/figure4/d3.jpg}%
+\put(90, 73){\colorbox{black!8}{\color{mediumblue}{\zitiB(7)}}}
+\put(25, 75.5){\zitiD\heiti\phv 对叶榕(\emph{Ficus hispida})}
+\end{overpic}
+\end{minipage} % 第一行图
+% %
+\\[0.8cm]
+% %
+\begin{minipage}{57.5cm} % 第一行图的说明
+ \centerline{\heiti\phv {\zitiD{树种个体分布图Distribution of tree individuals\hspace{1.5cm} \color{blue}$\bullet$} 1$\sim$5 cm DBH~~~~{\color{blue}+} 5$\sim$20 cm DBH~~~~{\color{blue}$\bigcirc$} $\geqslant$20 cm DBH}}
+\end{minipage}
+% %%%
+\\[0.9cm]
+%%%
+% \raisebox{10cm}{
+\begin{minipage}{24cm}% 表一
+\begin{minipage}{19cm}% 表头
+\zitiC\heiti\phv
+表1 重要值排名前12位的科\\
+Table 1 Top 12 families with high importance values
+\end{minipage}
+\\[-0.5cm]
+{\color{mediumblue}
+\begin{flushleft}
+\zitiE\heiti\phv
+\setlength{\parindent}{0em}
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
+\begin{tabular}{p{6.1cm}p{7.9cm}p{1.8cm}p{1.8cm}p{2cm}p{2cm}}
+\arrayrulecolor{black} \toprule[1.5pt]
+科名 & 分布区类型 & 树种数 & 个体数 & 断面积 & 重要值 \\
+Family & Areal types & \hangju\zitiF\tabincell{l}{No. of \\species} & \hangju\zitiF\tabincell{l}{No. of\\individual} & \hangju\zitiF\tabincell{l}{Basal area\\(m$^2$)} & IV \\
+\hline
+大戟科 Euphorbiaceae & 泛热带 Pantropic & 36 & 18,203 & 61.60 & 19.78 \\
+马鞭草科 Verbenaceae &	{\hangju\zitiF\tabincell{l}{热带亚洲及热带南美间断 Tropical Asia\\and tropical America disjuncted}} & 9	& 3,649	& 48.10	& 8.67 \\
+梧桐科 Sterculiaceae &	泛热带 Pantropic & 5 &	8,047 &	37.81 & 8.62 \\
+桑科 Moraceae	& 世界广布 Cosmopolitan & 18 & 4,838 & 16.42 & 6.36 \\
+椴树科 Tiliaceae & 泛热带 Pantropic & 3	& 2,744 & 27.39 & 4.63 \\
+茜草科 Rubiaceae & 世界广布 Cosmopolitan & 11 & 1,800 &	 7.81	& 3.35 \\
+楝科 Meliaceae & 世界广布 Cosmopolitan & 9 & 2,605 & 6.82	& 3.24 \\
+番荔枝科 Annonaceae &	泛热带 Pantropic & 7	& 1,980 & 2.54 & 2.55 \\
+无患子科 Sapindaceae & 泛热带 Pantropic & 6 &	1,000 & 9.86	& 2.53 \\
+蝶形花科 Fabaceae &	世界广布 Cosmopolitan & 4 & 319 &	17.22	& 2.46 \\
+柿树科 Ebenaceae & 泛热带 Pantropic & 4 & 2,520 & 5.61	& 2.36 \\
+紫葳科 Bignoniaceae &	泛热带 Pantropic & 6 & 643 & 8.47	& 2.03 \\
+\hline
+\multicolumn{2}{l}{合计 Total:} & 118 & 48,348 & 249.65 & 66.58 \\
+\multicolumn{2}{l}{相对百分比 Relative percentage:} & 52.91\% & 71.09\% & 75.87\% & 66.58\% \\
+\bottomrule[1.5pt]
+\end{tabular}
+\end{flushleft}
+}
+\end{minipage}% 表一
+% }
+% % %%
+% \\
+%
+\hfill
+\begin{minipage}{32.5cm}% 图4.1和4.2
+\begin{overpic}[height=19cm,width=15.0cm]{F:/DataW/PublBoard/figure4/c1.jpg}%
+\put(70, 94){\colorbox{black!8}{\color{mediumblue}{\zitiB(8)}}}
+\end{overpic}
+\hfill
+\begin{overpic}[height=19cm,width=17cm]{F:/DataW/PublBoard/figure4/c2.jpg}%
+\put(70, 94){\colorbox{black!8}{\color{mediumblue}{\zitiB(9)}}}
+\end{overpic}
+\\[0.6cm]
+% \rule{1cm}{0cm}
+\begin{minipage}{32cm} % 文字说明
+\raggedright
+\heiti\phv
+\zitiEa Org:有机质Organic content; N:氮Nitrogen; Mg: 镁Magnesium; S:硫Sulfur; Ca:钙Calcium; K:钾Potassium；P: Phosphorus;\\[0.2cm]
+\zitiC 群落指标和土壤化学含量沿山顶到洼地方向的变化趋势 Change trends of community structure index and soil chemical content from peak to depression in the Nonggang plot\\
+\end{minipage} % 文字说明
+\end{minipage}% 图4.1和4.2
+%%
+% % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\\[0.5cm]
+%%%%%%%%%%%%
+\begin{minipage}{57.5cm}  % 右半栏的文字
+{\color{mediumblue}{\zitiAa\phv Research findings ~}}
+\zitiBa
+Tropical floristic families are dominant (Table 1). \emph{Boniodendron minus}, \emph{Memecylon scutellatum}, and \emph{Sinosideroxylon pedunculatum} are dominant species around peaks; \emph{Excentrodendron tonkinense}, \emph{Cleistanthus petelotii}, and \emph{Diplodiscus trichosperma} at slopes; \emph{Archidendron guangxiensis}, \emph{Saraca dives}, and \emph{Ficus hispida} at valleys (Figure 5--7). Eleven (4.93\%) species with more than 1,500 individuals account for 51.6\% of the total individuals; 75 (33.6\%) rare species with less than one individual per hectare account for 0.35\% of the total individuals.
+The community structure index and soil chemical content showed strong spatial heterogeneity in the plot. As the altitude of "peak-depression" slope location decreases, organic matter, total nitrogen, magnesium, calcium, total sulfur contents, and pH value show decreasing trends, total phosphorus and total potassium contents show increasing trends (Figure 8); basal area per unit subplot shows an increasing trend, species richness and individual abundance show decreasing trends (Figure 9).
+%
+\end{minipage} % 右半栏的文字
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%！！！
+\end{minipage}
+\end{document} 
+

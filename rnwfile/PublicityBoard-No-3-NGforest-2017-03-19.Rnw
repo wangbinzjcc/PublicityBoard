@@ -1,0 +1,169 @@
+\documentclass[UTF8]{ctexrep}
+% 
+\usepackage{geometry}
+\geometry{papersize={120cm,90cm},left=1.5cm,right=1.5cm,top=1.3cm,bottom=0cm}
+%
+\usepackage{siunitx} % 加载经纬度
+%
+\usepackage[T1]{fontenc}
+\newcommand{\phv}{\fontfamily{phv}\selectfont}
+\newcommand{\zitiTitle}{\fontsize{70pt}{70pt}\selectfont}
+\newcommand{\zitiAa}{\fontsize{60pt}{65pt}\selectfont}
+\newcommand{\zitiA}{\fontsize{48pt}{53pt}\selectfont}
+\newcommand{\zitiB}{\fontsize{43pt}{50pt}\selectfont}
+\newcommand{\zitiC}{\fontsize{23pt}{28pt}\selectfont}
+%
+\usepackage[table]{xcolor}
+% \definecolor{mediumblue}{cmyk}{94, 87, 0, 0}
+\definecolor{mediumblue}{cmyk}{50, 90, 0, 0}
+\usepackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+%
+\usepackage{Overpic}
+%
+%
+\usepackage{wrapfig}
+%
+\usepackage{color}
+%
+% %
+\usepackage{amssymb} % 加载温度
+\newcommand*\circled[1]{\raisebox{-1.8pt}{\Large\textcircled{\raisebox{1.8pt}{\small{#1}}}\hspace{1.5pt}}}
+\def\celsius{\ensuremath{^\circ\hspace{-0.09em}\mathrm{C}}}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\begin{document} 
+\sisetup{detect-family}
+\setlength{\parindent}{0em}
+\begin{minipage}{120cm}
+\begin{center}
+{\color{mediumblue}{\zitiTitle\heiti\phv 
+广西弄岗喀斯特季节性雨林的植物多样性与特有性\\[0.8cm]
+Plant Diversity and Endemism in Guangxi Nonggang Karst Seasonal Rain Forest}} \end{center}
+\end{minipage} 
+%
+\vskip 1.2 cm 
+% 
+%
+\begin{minipage}{57.5cm}
+\zitiA
+%
+\hspace{0cm}{\color{mediumblue}{\zitiAa\heiti 概况~}}
+\zitiA
+北热带喀斯特季节性雨林是在我国热带北缘喀斯特地区分布的典型森林植被类型。由于热带季风气候、峰丛洼地的景观特征、复杂的生境类型及富钙偏碱的地球化学背景等影响，该森林呈现出以热带植物区系为主、群落结构复杂、树种组成多样、特有物种丰富等特点。
+广西弄岗国家级自然保护区仍保存着世界少有、面积较大、生态系统完整的典型喀斯特季节性雨林(图1, 2)，代表树种有蚬木、肥牛树、东京桐、金丝李等，是一座独特而巨大的生物多样性基因宝库， 是我国14个具有国际意义的陆地生物多样性关键地区之一。该喀斯特森林在维系区域生态安全方面发挥着重要作用，可作为石漠化治理及生态修复工程中的参考系统，并提供丰富的种源。
+%
+\\[1.6cm]
+%
+\begin{overpic}[height=21cm,width=28.4cm]{F:/DataW/PublBoard/figure3/a3.jpg}
+\put(0, 66){\colorbox{black!8}{\color{mediumblue}{\zitiB(1)}}}
+\put(16, 10){
+\begin{minipage}{23cm}
+\zitiC\heiti\phv
+ {\raggedleft
+\color{black!90}{
+保护区面积Reverse area: 10,077.5 hm$\sffamily^\num{2}$\\
+经度Longitude: {\color{black}\sffamily\ang{106;42;28}$-$\ang{107;04;54}} E\\
+纬度Latitude: {\sisetup{detect-family}%
+{\color{black}\sffamily\ang{22;13;56}$-$\ang{22;39;09}}} N\\
+
+年均气温Mean annual temperature: 22\celsius \\
+年均降雨量Mean annual precipitation: 1,150$-$1,550 mm \\
+}
+}
+\end{minipage} 
+}
+ \end{overpic}
+\hfill
+ \begin{overpic}[height=21cm,width=28.4cm]{F:/DataW/PublBoard/figure3/a1.jpg}
+\put(0, 66){\colorbox{black!8}{\color{mediumblue}{\zitiB(2)}}}
+\put(9, 8){
+\begin{minipage}{25cm}
+\zitiC\heiti\phv
+ {\raggedleft
+ \color{white}{
+峰顶平均海拔Average altitude of peak clusters: 400$-$500 m\\
+洼地平均海拔Average altitude of depression valleys: 150$-$200 m\\
+山峰平均密度Average density of mountain peaks: 10$-$30 km$^{-2}$\\ 
+}
+}
+\end{minipage} 
+}
+ \end{overpic}
+%
+\\[1cm]
+%
+{\color{mediumblue}{\zitiAa\phv Overview~}}
+\zitiA
+The northern tropical karst seasonal rain forest, located on the northern margin of the tropical limestone karst region of China, is the typical forest vegetation type in this region. The karst forest displays various characteristics, such as obvious tropical floristic elements, complicated community structure, high species richness, and abundant endemic biological species, owing to the tropical monsoon climate, landform characteristics of peak cluster depression, heterogeneous habitats, and special limestone soils with abundant Ca and relatively high pH.
+Guangxi Nonggang National Nature Reserve, which has well preserved the typical karst seasonal rain forest until now with large area, integrity ecosystem and representative species such as \emph{Excentrodendron tonkinense}, \emph{Cephalomappa sinensis}, \emph{Deutzianthus tonkinensis}, and \emph{Garcinia paucinervis}, etc., is an unique and great genetic treasure house of biodiversity, and one of the 14 key areas with international significance in China (Figure 1, 2). The forest plays an important role in maintaining regional ecological security, can be used as an important reference system and provides substantial seed source for the ecosystem reconstruction project in the rocky desertification area. 
+%
+\end{minipage}
+%
+\hfill
+%
+\begin{minipage}{57.5cm}
+%
+{\color{mediumblue}{\zitiAa\heiti 植被类型~}}
+\zitiB
+弄岗喀斯特季节性雨林可分为三个群系组：\circled{1} 铁榄—清香木 林，属于旱生型山顶矮林，分布于山顶周围(图3, 4)；\circled{2} 蚬木—肥牛树林，分布于山坡中部(图5, 6)；\circled{3} 大叶风吹楠—望天树 —东京桐林，具有热带雨林特征，分布于洼地周围(图7, 8)。
+\\[0.7 cm]
+{\color{mediumblue}{\zitiAa\phv Vegetation types~}}
+\zitiB
+The Nonggang karst seasonal rain forest could be divided into three forest formations. \circled{1} \emph{Sinosideroxylon pedunculatum}--\emph{Pistacia weinmannifolia} forest: it is xeromorphy elfin forests, and distributes around peaks (figure 3, 4). \circled{2} \emph{Excentrodendron tonkinense}--\emph{Cephalomappa sinensis} forest: it distributes in the middle slopes (figure 5, 6). \circled{3} \emph{Horsfieldia hainanensis}--\emph{Parashorea chinensis}--\emph{Deutzianthus tonkinensis} forest: it has the vegetation characteristics of tropical forests, and distributes around valleys (figure 7, 8).\\[0.7 cm]
+%
+\zitiB
+{\color{mediumblue}{\zitiAa\heiti 物种多样性与特有性~}}
+%
+弄岗保护区共有维管植物184科810属1752种，其中蕨类植物29科51属150种，裸子植物4科5属10种，双子叶植物126科611属1337种，单子叶植物25科143属255种；本区植物物种特有性极为明显，有蕨类植物中国特有种39种、种子植物广西特有种101种、喀斯特特有植物278种(黄俞淞，2013)。
+\\[0.7 cm]
+{\color{mediumblue}{\zitiAa\phv Species Diversity and Endemism~}}
+In total, 1752 vascular plant species, belonging to 810 genera and 184 families were recorded in the Nonggang Reserve, including 150 fern species in 51 genera and 29 families, 10 gymnosperm species in 5 genera and 4 families, 1337 dicotyledon species in 611 genera and 126 families, and 255 monocotyledon species in 143 genera and 25 families. Among these species, abundant endemic species were recorded, including 39 Chinese endemic fern species, 101 Guangxi endemic seed plant species, and 278 karst endemic species (exclusive calciphytes) (Huang YS \emph{et al.}, 2013). 
+\\[1 cm]
+%
+\begin{minipage}{57.5cm}
+\begin{overpic}[height=16cm,width=18.8cm]{F:/DataW/PublBoard/figure3/b1.jpg}%
+\put(0.25, 76){\colorbox{black!8}{\color{mediumblue}{\zitiB(3)}}}
+\end{overpic}
+%
+\hfill
+%
+\begin{overpic}[height=16cm,width=18.8cm]{F:/DataW/PublBoard/figure3/b2.jpg}%
+\put(0.25, 76){\colorbox{black!8}{\color{mediumblue}{\zitiB(4)}}}
+\end{overpic}
+%
+\hfill
+%
+\begin{overpic}[height=16cm,width=18.8cm]{F:/DataW/PublBoard/figure3/b4.jpg}%
+\put(0.25, 76){\colorbox{black!8}{\color{mediumblue}{\zitiB(5)}}}
+\end{overpic}
+%
+\\[0.5cm]
+%
+\begin{overpic}[height=16cm,width=18.8cm]{F:/DataW/PublBoard/figure3/b5.jpg}%
+\put(0.25, 76){\colorbox{black!8}{\color{mediumblue}{\zitiB(6)}}}
+\end{overpic}
+%
+\hfill
+%
+\begin{overpic}[height=16cm,width=18.8cm]{F:/DataW/PublBoard/figure3/b3.jpg}%
+\put(0.25, 76){\colorbox{black!8}{\color{mediumblue}{\zitiB(7)}}}
+\end{overpic}
+%
+\hfill
+%
+\begin{overpic}[height=16cm,width=18.8cm]{F:/DataW/PublBoard/figure3/b6.jpg}%
+\put(0.25, 76){\colorbox{black!8}{\color{mediumblue}{\zitiB(8)}}}
+ 
+\end{overpic}
+%
+\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%
+\end{minipage}
+
+
+%
+\end{document} 
+

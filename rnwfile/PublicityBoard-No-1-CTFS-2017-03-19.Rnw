@@ -1,0 +1,105 @@
+\documentclass[UTF8]{ctexrep}
+%
+% 
+\usepackage{geometry}
+\geometry{papersize={120cm,90cm},left=1.5cm,right=1.5cm,top=1.3cm,bottom=0cm}
+%
+\usepackage[T1]{fontenc}
+\newcommand{\phv}{\fontfamily{phv}\selectfont}
+\newcommand{\zitiTitle}{\fontsize{70pt}{80pt}\selectfont}
+\newcommand{\zitiAa}{\fontsize{60pt}{65pt}\selectfont}
+\newcommand{\zitiA}{\fontsize{48pt}{57pt}\selectfont}
+\newcommand{\zitiB}{\fontsize{43pt}{48pt}\selectfont}
+\newcommand{\zitiC}{\fontsize{30pt}{35pt}\selectfont}
+\newcommand{\zitiCa}{\fontsize{25pt}{30pt}\selectfont}
+%
+\usepackage[table]{xcolor}
+% \definecolor{mediumblue}{cmyk}{0.88, 0.3, 1, 0.21}
+\definecolor{mediumblue}{cmyk}{50, 90, 0, 0}
+%
+\usepackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+%
+\usepackage{color}
+%
+%
+\usepackage{Overpic}
+%
+%%%%%
+%
+\begin{document} 
+\setlength{\parindent}{0em}
+\begin{minipage}{120cm}
+\begin{center}
+{\color{mediumblue}{\zitiTitle\heiti\phv 热带森林研究中心 {--} 全球森林监测网络(CTFS-ForestGEO)\\[0.5cm]
+The Center for Tropical Forest Science -- Forest Global Earth Observatories}} 
+\end{center}
+\end{minipage} 
+%
+\vskip 1.6 cm 
+%
+\begin{minipage}{57.5cm}
+\begin{overpic}[height=29cm,width=57.5cm]{F:/DataW/PublBoard/figure1/a.jpg}
+\put(0, 48){\colorbox{black!15}{\color{mediumblue}{\zitiB(1)}}}
+\put(76.5,33.92){
+\zitiCa\phv 
+{\colorbox{green!40}{\color{red}{Nonggang}}}
+}
+\put(83.5,32.8){
+\zitiC
+\tikz \fill[red](0,0)circle(0.25)
+}
+\put(11.8,28.3){
+\zitiCa\phv 
+{\colorbox{blue!40}{\color{white}{Barro Colorado Island}}}
+}
+\put(26.9,29.2){
+\zitiC
+\tikz \fill[red](0,0)circle(0.25)
+}
+\end{overpic}
+%
+\\[1.0cm] 
+
+{\color{mediumblue}{\zitiAa\heiti 概况~}}
+\zitiA
+ 热带森林研究中心{--}全球森林监测网络（CTFS-ForestGEO）是科学家们致力于研究热带和温带森林功能和多样性而建成的全球性森林监测样地网络。到2016年，全球森林监测网络横跨美洲、非洲、欧洲、亚洲等区域，在24个国家地区建立了63个大型固定森林监测样地，监测了近10,000个树种、600万棵树木的生长和生存，并且每5年复查一次（图1）。基于全球森林监测网络的数据，超过200名科学家和政策分析者发表了超过1000篇学术论文，其中很多篇发表在《美国科学院学报》《科学》《自然》等顶级学术期刊上，验证了基于该网络研究的这些科学、政策问题的有效性和高影响力（图2）。
+ \\[1cm]
+{\color{mediumblue}{\zitiAa\phv Overview~}}
+The Center for Tropical Forest Science--Forest Global Earth Observatory (CTFS-ForestGEO) is a global network of forest research plots and scientists dedicated to the study of tropical and temperate forest function and diversity. By 2016, the multi-institutional network comprises 63 forest research plots in 24 countries and regions across the Americas, Africa, Europe, and Asia. CTFS-ForestGEO monitors the growth and survival of approximately 6 million trees and 10,000 species, and re-censuses are conducted every 5 years (Figure 1). Based on CTFS-ForestGEO data, over 200 scientists and policy analysts have published over 1,000 scientific articles many in high-profile journals like \emph{the Proceedings of the National Academy of Sciences} (US), \emph{Science}, and \emph{Nature}, attesting to the relevance and high impact of the science and policy issues being studied across the network (Figure 2).
+\end{minipage}%
+%
+\hfill
+%
+\zitiB
+\begin{minipage}{57.5cm}
+{\color{mediumblue}{\zitiAa\heiti 发展简史~}}
+% 
+1980年，美国史密森热带研究所的生态学家们在巴拿马的巴罗科罗拉多岛建立第一个大型固定森林监测样地（BCI 50公顷样地）（图3, 4）。他们首创了长期树木普查技术规范，建立了热带森林研究中心网络（CTFS）。CTFS经扩展和合作后，成为包含热带和温带森林样地的全球森林监测网络（CTFS-ForestGEO）。\\[1.2cm]
+{\color{mediumblue}{\zitiAa\phv  Development History~}}
+In 1980, ecologists at the Smithsonian Tropical Research Institute established the first forest plot on Barro Colorado Island (BCI 50-ha plot), Panama (Figure 3, 4). They pioneered long-term tree-census techniques, established the Center for Tropical Forest Science (CTFS). After an outgrowth and companion, CTFS contained forest research plots in tropical and temperate climatic zones, became The Forest Global Earth Observatory (CTFS-ForestGEO).\\[1.2cm]
+%
+{\color{mediumblue}{\zitiAa\heiti 科学计划~}}
+基于全球森林监测网络的数据科学家们将更好的探讨一些全球性科学问题，如： \circled{1} 为什么热带森林具有如此高的物种多样性？如何在人类使用的条件下仍维持高的物种多样性？ \circled{2} 热带和温带森林在维持气候和大气层稳定方面扮演怎样的角色？我们该如何利用和增强森林的碳储存能力？ \circled{3} 是什么决定了热带和温带森林的生产力？我们该如何可持续性的利用森林资源？ \circled{4} 全球气候变化将对热带和温带森林产生哪些影响？我们该采取怎样的生态措施来应对？\\[1.2cm]
+{\color{mediumblue}{\zitiAa\phv  Science Initiative~}}
+The CTFS-ForestGEO data sets enables scientists to answer global-scale scientific questions, such as: \circled{1} Why do tropical forests have high species diversity? How can that high diversity be maintained under conditions of human use? \circled{2} What role do tropical and temperate forests play in stabilizing our climate and atmosphere? How can we take advantage of and enhance their ability to store carbon? \circled{3} What determines tropical and temperate forests productivity? How can we use forest resources sustainably? \circled{4} What are the impacts of global climate change on tropical and temperate forests? How can we take ecological measures to deal with them?\\[1.3cm]
+%
+\begin{minipage}{57.5cm}
+\raisebox{-1.4cm}[0pt][0pt]{
+\begin{overpic}[height=24cm,width=24cm]{F:/DataW/PublBoard/figure1/b.jpg}%
+\put(7, 93.5){\colorbox{black!15}{\color{mediumblue}{\zitiB(2)}}}
+\end{overpic}
+}
+\hspace{0.4cm}
+\begin{overpic}[height=22.5cm,width=15cm]{F:/DataW/PublBoard/figure1/d.jpg}%
+\put(0, 93.5){\colorbox{black!15}{\color{mediumblue}{\zitiB(3)}}}
+\end{overpic}
+% \hspace{1.0cm}
+\begin{overpic}[height=22.5cm,width=15cm]{F:/DataW/PublBoard/figure1/c.jpg}%
+\put(0, 93.5){\colorbox{black!15}{\color{mediumblue}{\zitiB(4)}}}
+\end{overpic}
+\end{minipage}
+\end{minipage}
+%
+\end{document} 
+
